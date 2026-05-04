@@ -13,5 +13,7 @@ A full-stack Flask application designed to bridge the gap between operational in
 *   **Database:** SQLite / SQLAlchemy ORM
 *   **Frontend:** HTML5, CSS3, Bootstrap 5
 *   **Security:** Werkzeug (Security), Flask-Login
+*  ### 🔑 Security Utilities
+*   **Standalone Hasher:** Developed a dedicated utility script to demonstrate the underlying logic of `Werkzeug` hashing, ensuring a deep understanding of credential security beyond automated libraries.
 * ### Database Architecture
 ![Database Schema](ER_diag.png)
