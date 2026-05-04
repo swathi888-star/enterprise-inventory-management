@@ -17,3 +17,14 @@ A full-stack Flask application designed to bridge the gap between operational in
 *   **Standalone Hasher:** Developed a dedicated utility script to demonstrate the underlying logic of `Werkzeug` hashing, ensuring a deep understanding of credential security beyond automated libraries.
 * ### Database Architecture
 ![Database Schema](design_details/Database_schema_planning.png)
+* ### Mobile View
+![Mobile Responsive View](media/mobile_view.png)
+![Mobile Responsive View](media/website_mobile_view.png)
+### 📺 Application Walkthrough
+Click the link below to view the high-definition demonstration of the **Enterprise Inventory Management** system
+
+[![Watch the Demo]](https://youtu.be/6bWFMOgGA6o)
+
+*The walkthrough highlights the integration of Flask, SQLAlchemy, and Bootstrap 5 to deliver a business-ready decision tool.*
+### Automated Business Reporting
+![Email Activity Report](media/mail_activity_tracker.png)
