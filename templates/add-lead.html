@@ -1,0 +1,65 @@
+{% from "bootstrap5/form.html" import render_form %}
+{% block content %}
+{% include "header.html" %}
+<header class="masthead"
+        style="background-image: url('{{ url_for('static', filename='assets/img/lead-bg.jpg') }}')"
+>
+  <div class="container position-relative px-4 px-lg-5">
+    <div class="row gx-4 gx-lg-5 justify-content-center">
+      <div class="col-md-10 col-lg-8 col-xl-7">
+        <div class="page-heading">
+          <h1>Lead Form</h1>
+          <span class="subheading">Please enter valid details...</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<body>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+          {% if mode == 'edit' %}
+          <h1>Edit Lead</h1>
+          {% else: %}
+          <h1>New Lead</h1>
+          {% endif %}
+          <span class="subheading"
+            >Enter details below...</span
+          >
+          <form method="POST"
+                action="{% if mode == 'edit' %}
+                            {{ url_for('update_lead', lead_id=lead.lead_id) }}
+                        {% else %}
+                            {{ url_for('add_new_lead', inventory_id=inventory_id) }}
+                        {% endif %}">
+                {{ form.hidden_tag() }}
+                {% for field in form %}
+                    {% if field.widget.input_type != 'hidden' and field.name != 'submit' %}
+                    <div class="form-group">
+                        {{ field.label(class="form-label") }}
+                        {% if field.name == 'quantity' %}
+                            {% if mode == 'edit' %}
+                                {{ field(class="form-control", value=lead.quantity) }}
+                            {% else %}
+                                {{ field(class="form-control") }}
+                            {% endif %}
+                        {% else %}
+                            {{ field(class="form-control") }}
+                        {% endif %}
+                    {% for error in field.errors %}
+                        <small class="text-danger">{{ error }}</small>
+                    {% endfor %}
+                    </div>
+                    {% endif %}
+                {% endfor %}
+
+                {{ form.submit(class="btn btn-primary") }}
+                <a href="{{ url_for('show_inventory') if mode == 'add' else url_for('user_activity') }}" class="btn btn-secondary">Cancel</a>
+           </form>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+{% include "footer.html" %} {% endblock %}

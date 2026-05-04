@@ -1,0 +1,105 @@
+{% include "header.html" %}
+
+<!-- Page Header-->
+{% include "header.html" %}
+
+<!-- Page Header -->
+<header
+  class="masthead"
+  style="background-image: url('../static/assets/img/inventory-bg.jpg')"
+>
+  <div class="container position-relative px-4 px-lg-5">
+    <div class="row gx-4 gx-lg-5 justify-content-center">
+      <div class="col-md-10 col-lg-8 col-xl-7">
+        <div class="page-heading">
+          <h1>Asset Records</h1>
+          <span class="subheading">Your Sales Starting Point...</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<body>
+    <!-- Flash messages -->
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            <div class="flash-container">
+                {# Show errors first #}
+                {% for category, message in messages if category == 'error' %}
+                    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                        {{ message }}
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                {% endfor %}
+
+                {# Then show successes #}
+                {% for category, message in messages if category == 'success' %}
+                    <div class="alert alert-success alert-dismissible fade show" role="alert">
+                        {{ message }}
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                {% endfor %}
+            </div>
+        {% endif %}
+    {% endwith %}
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <h1 style="text-align:center;">Inventory Details</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Model</th>
+                <th>Instrument</th>
+                <th>Brand</th>
+                <th>Make</th>
+                <th>Quantity</th>
+                <th>Unit Price</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for item in items %}
+            <tr>
+                <td>{{ item.product_SKU }}</td>
+                <td>{{ item.product_info }}</td>
+                <td>{{ item.brand }}</td>
+                <td>{{ item.country_of_origin }}</td>
+                <td>{{ item.quantity }}</td>
+                <td>{{ item.unit_price }}</td>
+                <td
+                    {% if item.status_id == 2 %} class="table-warning"  {# Low Stock #}
+                    {% elif item.status_id == 3 %} class="table-danger" {# Aging #}
+                    {% elif item.status_id == 4 %} class="table-info"   {# Fast Moving #}
+                    {% endif %}>
+                    {{ item.status.name }}
+                </td>
+
+                <td>
+                    {% if current_user.user_id == 301 %}
+                        <div class="dropdown">
+                        <button class="Dropbox">Action ▼</button>
+                        <div class="dropdown-content">
+                            <a href="{{ url_for('add_new_inventory') }}">Add</a>
+                            <a href="{{ url_for('edit_inventory', inventory_id=item.inventory_id) }}">Edit</a>
+                            <a href="{{ url_for('delete_inventory', inventory_id=item.inventory_id) }}"
+                            onclick="return confirm('Are you sure you want to delete {{ item.inventory_product_SKU }}?');">Delete </a>
+                        </div>
+                    </div>
+                    {% else %}
+                        <button onclick="window.location.href='{{ url_for('add_new_lead', inventory_id=item.inventory_id) }}'">
+                        Assign
+                        </button>
+                    {% endif %}
+                </td>
+            </tr>
+
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+
+{% include "footer.html" %}
+
+</html>

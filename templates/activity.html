@@ -1,0 +1,58 @@
+{% include "header.html" %}
+
+<!-- Page Header-->
+<header
+  class="masthead"
+  style="background-image: url('../static/assets/img/activity-bg.jpg')"
+>
+  <div class="container position-relative px-4 px-lg-5">
+    <div class="row gx-4 gx-lg-5 justify-content-center">
+      <div class="col-md-10 col-lg-8 col-xl-7">
+        <div class="page-heading">
+          <h1>Lead and Order Tracking.....</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+ </header>
+<h2>Hello {{ current_user.name }}, check your activities and take action!</h2>
+        {% for activity in activities %}
+            <div class="timeline-item
+                {% if activity.type == 'Lead' and (current_date - activity.date).days > 7 %}
+                    overdue-lead
+                {% elif activity.type == 'Lead' and activity.status_id == 21 %}
+                    hot-lead
+                {% endif %}
+            ">
+
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    {% if activity.type == "Lead" %}
+                        <p class="timeline-title">
+                            {{ activity.type }} #{{ activity.id }} — {{ activity.product }} — {{ activity.description }}
+                        </p>
+                        <p>Quantity: {{ activity.quantity }}</p>
+                        <p>Status: {{ activity.status }}</p>
+                        <small>{{ activity.date.strftime('%Y-%m-%d') }}</small>
+
+                        {% if activity.updatable %}
+                             <a href="{{ url_for('update_lead', lead_id=activity.id) }}" class="btn btn-sm btn-primary">Update Lead</a>
+                        {% endif %}
+                    {% elif activity.type == "Order" %}
+                        <p class="timeline-title">
+                            {{ activity.type }} #{{ activity.id }} — {{ activity.date.strftime('%Y-%m-%d') }}
+                        </p>
+                        <p>Quantity: {{ activity.quantity }}</p>
+                        <p>Value: {{ activity.value }}</p>
+                        <p>Status: {{ activity.status_name }}</p>
+                    {% endif %}
+                </div>
+            </div>
+        {% endfor %}
+        <div class="timeline-footer text-center mt-3">
+            <a href="{{ url_for('email_activity') }}" class="btn btn-success">
+            📧 Send Mail
+            </a>
+        </div>
+
+{% include "footer.html" %}

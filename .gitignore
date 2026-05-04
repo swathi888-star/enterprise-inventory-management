@@ -1,0 +1,21 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual Environment (Very Important!)
+venv/
+.venv/
+env/
+userenvi.env
+
+# PyCharm settings
+.idea/
+
+# Database files (Only ignore if you don't want the live DB uploaded)
+# Since you have a .sql dump, you should ignore the local SQLite file if it exists
+*.db
+*.sqlite3
+
+# OS generated files
+.DS_Store
+Thumbs.db
