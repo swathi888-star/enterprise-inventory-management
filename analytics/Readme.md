@@ -33,7 +33,7 @@ This suite represents the **Deep Analytics** phase, translating the statistical 
 *   **Marketing & Territory Analysis**: Visualizing **Chi-Square** results to identify non-random demand clusters and seasonal shifts in specific divisions/territories.
 *   **Operations & Risk Intelligence**: 
     *   **Coefficient of Variation (CV)**: Quantifying consistency vs. risk across different lead sources.
-    *   **Lead Velocity & Friction**: Tracking the speed of movement through the funnel and identifying Z-score outliers in the lead logs.
+    *   **Lead Velocity & Friction**: Tracking the speed of movement through the funnel and identifying outliers in the lead logs.
 *   **Scientific Validation**: Using **ANOVA** and **Bayesian Win-Probability** to justify long-term strategic shifts in the Material Science Research sectors.
 
 **[Tableau Research Dashboard 1]**
