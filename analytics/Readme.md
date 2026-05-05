@@ -22,8 +22,8 @@ Focused on high-level operational oversight and historical business facts.
 ![Power BI Model View](model_view.png)
 
 **[Power BI Dashboard Overview]**
-![Power BI Executive Dashboard](Executive_Dashboard.png)
-![Power BI Product Page](Product_Dashboard.png)
+![Power BI Executive Dashboard](Executive_dashboard.png)
+![Power BI Product Page](Product_dashboard.png)
 ![Power BI Map Page](map_territory_dashboard.png)
 ---
 
