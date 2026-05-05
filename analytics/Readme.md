@@ -3,8 +3,8 @@
 This directory integrates **Power BI** and **Tableau** to transform Star Schema data into both executive-level business reporting and deep-dive statistical research.
 
 ## 🔗 Project Resources
-*   **Power BI**: [Interactive Demo Video](https://www.youtube.com/watch?v=MUrf-D1AuWg) | [Download Raw .pbix](./analytics/labgear.pbix)
-*   **Tableau**: [Interactive Tableau Public Profile](https://public.tableau.com/app/profile/swathi.sathyanarayana3602/vizzes) 
+*   **Power BI**: [Interactive Demo Video](https://www.youtube.com/watch?v=MUrf-D1AuWg) | [Download Raw .pbix](labgear.pbix)
+*   **Tableau**:  [Interactive Demo Video](https://www.youtube.com/watch?v=G2RpD2M7v5w) | [Interactive Tableau Public Profile](https://public.tableau.com/app/profile/swathi.sathyanarayana3602/vizzes)
     *(Note: Optimized for desktop; please use **Full-Screen mode** for maximum clarity of statistical annotations).*
 
 ---
