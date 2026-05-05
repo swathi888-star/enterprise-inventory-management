@@ -1,4 +1,4 @@
-# Enterprise Inventory & Lead Management System
+# Integrated Inventory Intelligence & Lead Analytics Ecosystem
 
 ## Project Overview
 This full-stack ecosystem is designed to bridge the gap between operational inventory tracking and strategic business intelligence. The project is intentionally structured into three distinct phases to demonstrate a complete transition from raw data collection to predictive decision analytics.
