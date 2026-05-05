@@ -1,0 +1,43 @@
+"inventory_id";"product_SKU";"purchase_date";"warranty_expiry_date";"quantity";"item_description";"division";"brand";"country_of_origin";"unit_purchase_cost";"status_id"
+1;"OX-2345-PLPH";"2023-01-12";"2027-01-12";5;"Inverted Microscope";"LifeScience";"Microscopex";"Switzerland";135000.0;5
+2;"BTR-NWR-640";"2023-02-02";"2026-02-02";5;"Battery Tester";"BatterResearch";"Lware";"China";168750.0;5
+3;"HRM-GB-2308-12";"2023-04-09";"2026-04-09";12;"Refrigerated Centrifuge";"LifeScience";"Hermlab";"Germany";405000.0;6
+4;"FSC-SC-90C-GB";"2023-06-15";"2026-06-15";5;"Fire Safety Cabinets";"MaterialScience";"Safecos";"Germany";540000.0;5
+5;"GC-FSC-30C-GB";"2023-06-26";"2026-06-26";4;"Gas Cabinets";"MaterialScience";"Safecos";"Germany";438750.0;3
+6;"SVC-AC-23A-GB";"2023-07-20";"2026-07-20";5;"Acid Cabinets";"MaterialScience";"Safecos";"Germany";506250.0;5
+7;"TM-CM-25-78";"2023-09-10";"2026-09-10";4;"Sealing machine";"BatterResearch";"BTST";"China";168750.0;3
+8;"DC-FSC-90C-GB";"2023-10-18";"2026-10-18";3;"Drum Cabinets";"MaterialScience";"Safecos";"Germany";405000.0;6
+9;"BMH-2152-US-02";"2022-11-08";"2025-11-08";3;"Bead Mill Homogenisers";"LifeScience";"OmoG";"USA";371250.0;3
+10;"FUR-Lite-678-12";"2023-12-20";"2026-12-20";20;"Furnance";"MaterialScience";"Furolite";"France";1012500.0;2
+11;"CR-09-PP-34";"2024-01-05";"2027-01-05";20;"Crimper";"BatterResearch";"TBEST";"China";337500.0;2
+12;"HRP-09-PP-35";"2024-01-05";"2027-01-05";10;"Hot Roll Press";"BatterResearch";"TBEST";"China";236250.0;5
+13;"DX-2289-PLPHF";"2022-02-14";"2026-02-14";5;"Fluorescence Microscope";"LifeScience";"Microscopex";"Switzerland";675000.0;2
+14;"JT-2016-IN-04";"2024-04-10";"2026-04-10";15;"Orbital Shaker";"LifeScience";"Jtech";"South Korea";202500.0;4
+15;"AD-MS-1025-IN";"2024-04-25";"2026-04-25";20;"Magnetic stirrer";"LifeScience";"IKYA";"India";13500.0;2
+16;"PR-USA-1234-HP";"2024-05-12";"2027-05-12";5;"Photoreactor";"LifeScience";"HEphotoR";"USA";675000.0;2
+17;"ILK-FD-SK-345";"2024-05-20";"2026-05-20";12;"Freeze Dryers";"LifeScience";"Ilkhem";"South Korea";540000.0;4
+18;"PR-USA-1200-HP";"2024-06-12";"2027-06-12";3;"Photoreactor Lamps";"LifeScience";"HEphotoR";"USA";67500.0;6
+19;"UB-FSC-30C-GB";"2024-06-17";"2027-06-17";8;"Underbench Cabinets";"MaterialScience";"Safecos";"Germany";337500.0;2
+20;"SK-200-S-II";"2024-06-20";"2027-06-20";10;"Planetary Mixer";"MaterialScience";"KubotoSu";"Japan";270000.0;4
+21;"AD-VP-2300-IN";"2024-07-12";"2026-07-12";5;"Vacuum Pump";"LifeScience";"IKYA";"India";67500.0;5
+22;"JT-2003-IN-04";"2024-08-15";"2026-08-15";10;"Shaking Incubator";"LifeScience";"Jtech";"South Korea";168750.0;4
+23;"DP-SGZ-456-04";"2025-09-15";"2027-09-15";5;"Deep Freezers";"LifeScience";"SangodZ";"India";168750.0;3
+24;"JCR-SM-123-09-R";"2024-09-30";"2027-09-30";10;"Jaw Crushers ";"MaterialScience";"Smasch";"France";810000.0;5
+25;"IS-3456-PLi";"2025-10-10";"2028-10-10";5;"Upright Microscope";"LifeScience";"Microscopex";"Switzerland";57375.0;3
+26;"CM-09-PP-37";"2024-11-18";"2027-11-18";2;"Coating Machine";"BatterResearch";"TBEST";"China";175500.0;1
+27;"ILK-DF-SK-330";"2024-12-12";"2026-12-12";4;"Deep Freezers Package";"LifeScience";"Ilkhem";"South Korea";675000.0;1
+28;"CC-BT-2023";"2025-01-10";"2028-01-10";15;"Coin cells";"BatterResearch";"TOBRST";"China";202500.0;4
+29;"UDP-SGZ-420-05";"2025-01-30";"2027-01-30";3;"Ultra Deep Freezers";"LifeScience";"SangodZ";"India";202500.0;3
+30;"ProT-1234-IN-05";"2025-02-03";"2027-02-03";2;"Humidity Chambers";"LifeScience";"ProTech";"India";378000.0;3
+31;"AD-RE-3042-IN";"2024-02-12";"2026-02-12";5;"Rotary Evaporator";"LifeScience";"IKYA";"India";202500.0;6
+32;"YZ-4052-FC-162";"2023-03-02";"2026-03-02";5;"Flash Chromatography";"LifeScience";"YZFlash";"Japan";1012500.0;1
+33;"GB-INAT-895-01";"2024-03-06";"2027-03-06";1;"Glovebox Full Package";"MaterialScience";"GSBraun";"Germany";10125000.0;6
+34;"NW-BT-2560";"2025-03-10";"2028-03-10";7;"Battery Tester Multi";"BatterResearch";"Nwand";"China";202500.0;2
+35;"SK-400-TV-II";"2025-03-20";"2028-03-20";6;"Planetary Vacuum Mixer";"MaterialScience";"KubotSu";"Japan";540000.0;4
+36;"BS-2344-EPLi";"2025-05-16";"2027-05-16";3;"Student Microscope";"LifeScience";"Microscopex";"Switzerland";37125.0;5
+37;"IS-387-CC-125";"2025-05-20";"2028-05-20";4;"Colony Counter";"LifeScience";"Shashin Kagaku";"Japan";675000.0;1
+38;"RF-SGD-432-05";"2025-05-24";"2027-05-24";5;"Refrigerators ";"LifeScience";"SangodZ";"India";67500.0;4
+39;"GB-INAT-897-00";"2025-05-26";"2028-05-26";3;"Glovebox";"MaterialScience";"GSBraun";"Germany";6750000.0;6
+40;"YZ-4050-FC-161";"2024-08-16";"2027-08-16";2;"High Flash Chromatography";"LifeScience";"YZFlash";"Japan";877500.0;6
+41;"DS-20X-CCD";"2022-08-25";"2024-08-25";3;"CCD Camera";"LifeScience";"Microscopex";"Switzerland";81000.0;3
+42;"DS-HSC-CMOS";"2025-11-06";"2027-11-06";3;"CMOS Camera";"LifeScience";"Microscopex";"Switzerland";66825.0;3
