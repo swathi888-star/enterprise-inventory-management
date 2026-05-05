@@ -19,12 +19,12 @@ Focused on high-level operational oversight and historical business facts.
 *   **Model Integrity**: Built on a Fact-Dimension architecture to ensure data consistency across the reporting layer.
 
 **[Power BI Model View]**
-![Power BI Model View](analytics/model_view.png)
+![Power BI Model View](model_view.png)
 
 **[Power BI Dashboard Overview]**
-![Power BI Executive Dashboard](analytics/Executive_Dashboard.png)
-![Power BI Product Page](analytics/Product_Dashboard.png)
-![Power BI Map Page](analytics/map_territory_dashboard.png)
+![Power BI Executive Dashboard](Executive_Dashboard.png)
+![Power BI Product Page](Product_Dashboard.png)
+![Power BI Map Page](map_territory_dashboard.png)
 ---
 
 ### 2. Tableau: Advanced Statistical Research Layer
@@ -37,13 +37,13 @@ This suite represents the **Deep Analytics** phase, translating the statistical 
 *   **Scientific Validation**: Using **ANOVA** and **Bayesian Win-Probability** to justify long-term strategic shifts in the Material Science Research sectors.
 
 **[Tableau Research Dashboard 1]**
-![Tableau Marketing Analytics](analytics/Marketing_Analytics.png)
+![Tableau Marketing Analytics](Marketing_Analytics.png)
 
 **[Tableau Research Dashboard 2]**
-![Tableau Division Stats](analytics/Territory_Division_Analytics.png)
+![Tableau Division Stats](Territory_Division_Analytics.png)
 
 **[Tableau Research Dashboard 3]**
-![Tableau Operational Stats](analytics/Operations_Analytics.png)
+![Tableau Operational Stats](Operations_Analytics.png)
 
 ---
 
