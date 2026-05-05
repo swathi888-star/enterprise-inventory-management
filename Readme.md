@@ -3,6 +3,31 @@
 ## Project Overview
 A full-stack Flask application designed to bridge the gap between operational inventory tracking and strategic lead management. This project represents **Phase A** of a larger transition into decision analytics.
 
+<details>
+<summary>📂 Click to expand Project Structure & Architecture</summary>
+
+### 🌐 1. Application Layer (Full-Stack Flask)
+*   **`main.py`**: The central entry point for the application, handling routing and core logic.
+*   **`forms.py`**: Contains WTForms classes for robust data validation.
+*   **`templates/`**: Jinja2 HTML templates defining the frontend structure.
+*   **`static/`**: Storage for CSS, JavaScript, and UI assets.
+*   **`security/`**: Implementation of authentication protocols and access control.
+*   **`instance/`**: Dedicated folder for local database files and environment-specific configurations.
+
+### 📊 2. Data Science & Research Layer
+*   **`stats_research/`**: Detailed Jupyter Notebooks containing the M.Tech-level statistical analysis (ANOVA, Chi-Square, Bayesian).
+*   **`sql_schema/`**: DDL and DML scripts used to build the relational database backend.
+*   **`analytics/`**: **The Business Intelligence Hub**. This directory houses the Power BI files, Tableau documentation, and statistical visual assets.
+
+### 🛠️ 3. Infrastructure & Documentation
+*   **`design_details/`**: Technical specifications and system architecture documentation.
+*   **`media/`**: Repository for images of flask application.
+*   **`requirements.txt`**: Complete list of Python dependencies required for the environment.
+*   **`.gitignore`**: Configured to protect sensitive instance data and virtual environment files.
+
+</details>
+
+---
 ## Key Features
 *   **Inventory Tracking:** Real-time monitoring of stock levels and product details.
 *   **Lead Velocity Tracking:** Monitoring the movement of business leads through various sales stages.
