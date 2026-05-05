@@ -1,7 +1,19 @@
 # Enterprise Inventory & Lead Management System
 
 ## Project Overview
-A full-stack Flask application designed to bridge the gap between operational inventory tracking and strategic lead management. This project represents **Phase A** of a larger transition into decision analytics.
+This full-stack ecosystem is designed to bridge the gap between operational inventory tracking and strategic business intelligence. The project is intentionally structured into three distinct phases to demonstrate a complete transition from raw data collection to predictive decision analytics.
+
+**Phase A:** The Operational Core (Full-Stack Flask)
+*   **Purpose:** Establishing the "Single Source of Truth" via a robust inventory and lead management system.
+*   **Stack:** Flask, MySQL/SQLite, and Jinja2 templates.
+
+**Phase B:** Executive Visibility (Power BI Suite)
+*   **Purpose:** Transforming operational data into high-level business facts for rapid decision-making.
+*   **Focus:** KPI tracking, revenue growth, and product performance.
+
+**Phase C:** Decision Analytics & Research (Tableau & Python Stats)
+*   **Purpose:** Moving beyond "what happened" to "why it happened" using rigorous statistical methodologies.
+*   **Focus:** Risk assessment (CV), demand clustering (Chi-Square), and lead velocity analysis.
 
 <details>
 <summary>📂 Click to expand Project Structure & Architecture</summary>
