@@ -1,0 +1,34 @@
+region,division,total_leads,won_leads,lost_leads,open_leads,total_revenue,conversion_pct,rank_by_conversion,rank_by_revenue,conv_rate
+Delhi,MaterialScience,6,4.0,2.0,0.0,15950000.0,66.67,1,1,66.66666666666666
+Maharashtra,MaterialScience,13,7.0,3.0,3.0,14990000.0,53.85,8,2,70.0
+Gujarat,MaterialScience,10,6.0,3.0,1.0,13150000.0,60.0,5,3,66.66666666666666
+West Bengal,MaterialScience,5,2.0,1.0,2.0,12300000.0,40.0,14,4,66.66666666666666
+Others,MaterialScience,7,3.0,1.0,3.0,11080000.0,42.86,11,5,75.0
+Maharashtra,LifeScience,37,14.0,16.0,7.0,10085000.0,37.84,15,6,46.666666666666664
+Karnataka,MaterialScience,16,7.0,3.0,6.0,7012000.0,43.75,10,7,70.0
+Telangana,LifeScience,26,12.0,7.0,7.0,5160000.0,46.15,9,8,63.1578947368421
+Karnataka,LifeScience,17,4.0,8.0,5.0,4500000.0,23.53,27,9,33.33333333333333
+Goa,LifeScience,7,4.0,0.0,3.0,4150000.0,57.14,6,10,100.0
+Others,LifeScience,15,4.0,9.0,2.0,3680000.0,26.67,22,11,30.76923076923077
+Gujarat,BatterResearch,9,5.0,3.0,1.0,2730000.0,55.56,7,12,62.5
+Kerala,MaterialScience,8,1.0,4.0,3.0,2700000.0,12.5,32,13,20.0
+Gujarat,LifeScience,22,5.0,9.0,8.0,2660000.0,22.73,28,14,35.714285714285715
+Kerala,LifeScience,16,5.0,8.0,3.0,2590000.0,31.25,18,15,38.46153846153847
+Telangana,MaterialScience,8,2.0,3.0,3.0,2580000.0,25.0,24,16,40.0
+Rajasthan,MaterialScience,7,2.0,3.0,2.0,2420000.0,28.57,20,17,40.0
+Telangana,BatterResearch,11,7.0,1.0,3.0,2242000.0,63.64,4,18,87.5
+Karnataka,BatterResearch,14,4.0,6.0,4.0,1950000.0,28.57,20,19,40.0
+Delhi,BatterResearch,6,2.0,1.0,3.0,1760000.0,33.33,17,20,66.66666666666666
+Tamil Nadu,BatterResearch,8,3.0,5.0,0.0,1710000.0,37.5,16,21,37.5
+Maharashtra,BatterResearch,7,3.0,4.0,0.0,1600000.0,42.86,11,22,42.857142857142854
+Tamil Nadu,MaterialScience,10,3.0,2.0,5.0,1520000.0,30.0,19,23,60.0
+Goa,MaterialScience,4,1.0,2.0,1.0,1440000.0,25.0,24,24,33.33333333333333
+Rajasthan,LifeScience,7,3.0,3.0,1.0,1230000.0,42.86,11,25,50.0
+Delhi,LifeScience,15,4.0,7.0,4.0,1080000.0,26.67,22,26,36.36363636363637
+Rajasthan,BatterResearch,3,2.0,0.0,1.0,1060000.0,66.67,1,27,100.0
+Goa,BatterResearch,4,1.0,0.0,3.0,900000.0,25.0,24,28,100.0
+Tamil Nadu,LifeScience,15,2.0,8.0,5.0,800000.0,13.33,31,29,20.0
+Others,BatterResearch,3,2.0,0.0,1.0,720000.0,66.67,1,30,100.0
+West Bengal,LifeScience,16,1.0,11.0,4.0,600000.0,6.25,33,31,8.333333333333332
+West Bengal,BatterResearch,7,1.0,3.0,3.0,560000.0,14.29,30,32,25.0
+Kerala,BatterResearch,5,1.0,1.0,3.0,350000.0,20.0,29,33,50.0

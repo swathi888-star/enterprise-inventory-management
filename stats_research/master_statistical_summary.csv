@@ -1,0 +1,4 @@
+Test_Category,Test_Name,Metric,Value,P_Value,Outcome
+Strategic,Chi-Square: Division vs. Success,Chi2-Stat,7.8293,0.0199,Dependent (Significant)
+Operations,ANOVA: Delay Reason vs Time,F-Statistic,108.4463,0.0,Significant
+Marketing,Chi-Square: Lead Volume Seasonality,Chi2-Stat,39.6777,0.0,Seasonal (Significant)

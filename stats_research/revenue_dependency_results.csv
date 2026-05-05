@@ -1,0 +1,35 @@
+brand,item_description,product_SKU,division,total_orders,total_revenue,total_cost,total_margin,avg_margin_per_order,margin_pct,rev_class
+Hermlab,Refrigerated Centrifuge,HRM-GB-2308-12,LifeScience,7,6445000.0,1125000.0,5320000.0,760000.0,82.54,High
+IKYA,Magnetic stirrer,AD-MS-1025-IN,LifeScience,10,360000.0,900000.0,-540000.0,-54000.0,-150.0,Low
+Furolite,Furnance,FUR-Lite-678-12,MaterialScience,11,22850000.0,1275000.0,21575000.0,1961363.64,94.42,High
+IKYA,Rotary Evaporator,AD-RE-3042-IN,LifeScience,4,1500000.0,1500000.0,0.0,0.0,0.0,Low
+HEphotoR,Photoreactor,PR-USA-1234-HP,LifeScience,3,3250000.0,600000.0,2650000.0,883333.33,81.54,High
+KubotoSu,Planetary Mixer,SK-200-S-II,MaterialScience,5,2212000.0,1000000.2,1211999.8,242399.96,54.79,High
+TOBRST,Coin cells,CC-BT-2023,BatterResearch,8,3412000.0,780000.0,2632000.0,329000.0,77.14,High
+Safecos,Underbench Cabinets,UB-FSC-30C-GB,MaterialScience,4,3710000.0,1400000.0,2310000.0,577500.0,62.26,High
+Nwand,Battery Tester Multi,NW-BT-2560,BatterResearch,4,1580000.0,900000.0,680000.0,170000.0,43.04,Low
+TBEST,Crimper,CR-09-PP-34,BatterResearch,12,8140000.0,1800000.0,6340000.0,528333.33,77.89,High
+Safecos,Fire Safety Cabinets,FSC-SC-90C-GB,MaterialScience,2,1500000.0,545454.4,954545.6000000001,477272.8,63.64,Low
+Smasch,Jaw Crushers ,JCR-SM-123-09-R,MaterialScience,4,6450000.0,900000.0,5550000.0,1387500.0,86.05,High
+Microscopex,Inverted Microscope,OX-2345-PLPH,LifeScience,2,400000.0,300000.0,100000.0,50000.0,25.0,Low
+Safecos,Drum Cabinets,DC-FSC-90C-GB,MaterialScience,2,1700000.0,999999.9999,700000.0001000001,350000.0,41.18,Low
+Shashin Kagaku,Colony Counter,IS-387-CC-125,LifeScience,2,1850000.0,272727.5,1577272.5,788636.25,85.26,Low
+Safecos,Acid Cabinets,SVC-AC-23A-GB,MaterialScience,2,2050000.0,1800000.0,250000.0,125000.0,12.2,High
+TBEST,Hot Roll Press,HRP-09-PP-35,BatterResearch,4,1690000.0,1000000.0,690000.0,172500.0,40.83,Low
+GSBraun,Glovebox Full Package,GB-INAT-895-01,MaterialScience,1,13000000.0,1500000.0,11500000.0,11500000.0,88.46,High
+SangodZ,Refrigerators ,RF-SGD-432-05,LifeScience,2,380000.0,1200000.0,-820000.0,-410000.0,-215.79,Low
+Microscopex,Fluorescence Microscope,DX-2289-PLPHF,LifeScience,2,2700000.0,900000.0,1800000.0,900000.0,66.67,High
+Jtech,Shaking Incubator,JT-2003-IN-04,LifeScience,5,1900000.0,1200000.0,700000.0,140000.0,36.84,Low
+YZFlash,Flash Chromatography,YZ-4052-FC-162,LifeScience,3,4300000.0,1500000.0,2800000.0,933333.33,65.12,High
+Jtech,Orbital Shaker,JT-2016-IN-04,LifeScience,6,2860000.0,1200000.0,1660000.0,276666.67,58.04,High
+IKYA,Vacuum Pump,AD-VP-2300-IN,LifeScience,1,100000.0,300000.0,-200000.0,-200000.0,-200.0,Low
+Ilkhem,Deep Freezers Package,ILK-DF-SK-330,LifeScience,1,1800000.0,600000.0,1200000.0,1200000.0,66.67,Low
+YZFlash,High Flash Chromatography,YZ-4050-FC-161,LifeScience,1,2300000.0,3000000.0,-700000.0,-700000.0,-30.43,High
+Ilkhem,Freeze Dryers,ILK-FD-SK-345,LifeScience,6,5970000.0,1200000.0,4770000.0,795000.0,79.9,High
+KubotSu,Planetary Vacuum Mixer,SK-400-TV-II,MaterialScience,3,3020000.0,800000.0,2220000.0,740000.0,73.51,High
+TBEST,Coating Machine,CM-09-PP-37,BatterResearch,1,260000.0,600000.0,-340000.0,-340000.0,-130.77,Low
+Lware,Battery Tester,BTR-NWR-640,BatterResearch,2,500000.0,352941.2,147058.8,73529.4,29.41,Low
+HEphotoR,Photoreactor Lamps,PR-USA-1200-HP,LifeScience,2,250000.0,3000000.0,-2750000.0,-1375000.0,-1100.0,Low
+Microscopex,Upright Microscope,IS-3456-PLi,LifeScience,1,170000.0,600000.0,-430000.0,-430000.0,-252.94,Low
+GSBraun,Glovebox,GB-INAT-897-00,MaterialScience,3,28000000.0,3000000.0,25000000.0,8333333.33,89.29,High
+Safecos,Gas Cabinets,GC-FSC-30C-GB,MaterialScience,1,650000.0,500000.0,150000.0,150000.0,23.08,Low

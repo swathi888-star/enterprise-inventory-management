@@ -1,0 +1,7 @@
+name,avg_delay,max_delay,var_delay,total_orders,delayed_orders,pct_delayed_orders,rank_by_pct_delayed,rank_by_avg_delay
+Payment Pending,29.7368,35,9.667590027700829,19,19.0,100.0,1,1
+Damage,27.5263,30,3.722991689750692,19,19.0,100.0,1,2
+Customer Hold,23.6786,27,7.718112244897954,28,28.0,100.0,1,3
+Stock Shortage,21.1,24,6.089999999999998,20,19.0,95.0,4,4
+Logistics Delay,16.4737,20,3.8282548476454306,19,10.0,52.63,5,5
+Installation delay,15.4545,18,3.520661157024794,22,9.0,40.91,6,6
