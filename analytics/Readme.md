@@ -1,6 +1,6 @@
 # 📊 Analytics & Visual Intelligence Layer
 
-This directory integrates **Power BI** and **Tableau** to transform Star Schema data into both executive-level business reporting and deep-dive statistical research.
+This directory integrates **Power BI** and **Tableau** to transform Snowflake Schema data into both executive-level business reporting and deep-dive statistical research.
 
 ## 🔗 Project Resources
 *   **Power BI**: [Interactive Demo Video](https://www.youtube.com/watch?v=MUrf-D1AuWg) | [Download Raw .pbix](labgear.pbix)
@@ -10,7 +10,7 @@ This directory integrates **Power BI** and **Tableau** to transform Star Schema 
 ---
 
 ## 🏗️ Technical Architecture
-Both platforms are powered by a **Star Schema** backend, connecting directly to specialized SQL views (`friction_analysis`, `bcg_matrix`) to ensure a decoupled, high-performance reporting layer.
+Both platforms are powered by a **Snowflake Schema** backend, connecting directly to specialized SQL views (`friction_analysis`, `bcg_matrix`) to ensure a decoupled, high-performance reporting layer.
 
 ### 1. Power BI: Executive Performance & KPI Suite
 Focused on high-level operational oversight and historical business facts.
